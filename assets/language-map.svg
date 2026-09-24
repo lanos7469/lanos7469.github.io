@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Four languages, one network</title>
+  <desc id="desc">Four connected circles marked Korean, Chinese, English, and Japanese.</desc>
+  <rect width="1000" height="360" fill="#e1e8dc"/>
+  <path d="M130 260c142-174 268-174 370 0 116-174 239-174 370 0" fill="none" stroke="#a7b9a4" stroke-width="4"/>
+  <path d="M130 260h740" stroke="#315c4c" stroke-width="2" stroke-dasharray="8 10" opacity=".5"/>
+  <g font-family="Georgia,serif" font-size="58" text-anchor="middle" fill="#315c4c">
+    <circle cx="145" cy="210" r="84" fill="#f4f2ec"/><text x="145" y="230">한</text>
+    <circle cx="382" cy="128" r="84" fill="#c8d6c3"/><text x="382" y="148">中</text>
+    <circle cx="618" cy="210" r="84" fill="#f4f2ec"/><text x="618" y="230">En</text>
+    <circle cx="855" cy="128" r="84" fill="#e9bfaa"/><text x="855" y="148">日</text>
+  </g>
+  <g fill="#315c4c" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" text-anchor="middle"><text x="145" y="330">KOREAN</text><text x="382" y="330">CHINESE</text><text x="618" y="330">ENGLISH</text><text x="855" y="330">JAPANESE</text></g>
+</svg>

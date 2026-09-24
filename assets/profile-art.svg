@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 760" role="img" aria-labelledby="title desc">
+  <title id="title">Across two cities</title>
+  <desc id="desc">Abstract arches and a path connecting two places across a muted green landscape.</desc>
+  <rect width="680" height="760" fill="#dce3d7"/>
+  <circle cx="522" cy="126" r="69" fill="#e9a078"/>
+  <path d="M0 476c118-83 224-90 340-16 129 82 222 72 340-4v304H0z" fill="#afc0a8"/>
+  <path d="M0 578c135-62 238-43 347 30 101 68 208 60 333 0v152H0z" fill="#829c88"/>
+  <path d="M125 542V298c0-104 73-177 168-177s168 73 168 177v244h-75V303c0-62-36-106-93-106s-93 44-93 106v239z" fill="#f4f2ec"/>
+  <path d="M267 542V362c0-62 45-108 105-108s105 46 105 108v180h-59V365c0-29-17-49-46-49s-46 20-46 49v177z" fill="#315c4c"/>
+  <path d="M0 635c117-34 205-29 302 12 114 48 238 48 378-6v119H0z" fill="#315c4c"/>
+  <path d="M327 760c32-83 62-151 92-214 27-57 46-104 52-150 9 50-1 101-25 166-20 56-36 121-47 198z" fill="#e7b596" opacity=".9"/>
+  <path d="M114 590c40-23 73-33 112-34M502 588c35 3 65 14 93 31" fill="none" stroke="#f4f2ec" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <g fill="#f4f2ec" opacity=".84"><circle cx="89" cy="176" r="3"/><circle cx="557" cy="319" r="3"/><circle cx="492" cy="79" r="2"/><circle cx="213" cy="84" r="2"/></g>
+  <g fill="none" stroke="#315c4c" stroke-width="1" opacity=".3"><path d="M45 700h150M485 683h132"/><circle cx="568" cy="476" r="27"/><circle cx="568" cy="476" r="36"/></g>
+</svg>

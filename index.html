@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f2ec" />
+    <meta name="description" content="Minseung Choi — Shanghai Jiao Tong University student exploring language, culture, and cross-border work." />
+    <title>Minseung Choi — Personal Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="content-data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="wordmark" href="#home" aria-label="Minseung Choi home">MC<span>.</span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" data-i18n="navAbout" aria-current="page">Home</a>
+          <a href="#work" data-i18n="navWork">Experience</a>
+          <a href="#languages" data-i18n="navLanguages">Languages</a>
+        </nav>
+        <div class="language-switch" role="group" aria-label="Choose language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+          <button type="button" data-lang="ko" aria-pressed="false">한국어</button>
+        </div>
+      </header>
+
+      <main>
+        <div class="page-view" data-view="home">
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">STUDENT · SHANGHAI JIAO TONG UNIVERSITY</span></p>
+            <h1 data-i18n="headline">Language, culture<br />and <em>cross-border</em><br />possibilities.</h1>
+            <p class="hero-intro" data-i18n="intro">I’m Minseung, an English major interested in how people, ideas, and business move across cultures.</p>
+            <a class="text-link" href="#about"><span data-i18n="discover">A little more about me</span><span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-art-wrap">
+            <div class="art-note note-top" data-i18n="artNoteTop">SEOUL ↔ SHANGHAI</div>
+            <img class="hero-art" data-asset="asset.hero" src="assets/profile-art.svg" alt="Abstract illustration of two connected archways" />
+            <div class="art-note note-bottom"><span data-i18n="artNoteBottom">Curiosity in motion</span><span>31° 01′ N / 121° 26′ E</span></div>
+            <span class="art-index">01 / 03</span>
+          </div>
+          <div class="hero-bottom"><span data-i18n="scroll">SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>2026</span></div>
+        </section>
+
+        <section class="about section-grid" id="about">
+          <div class="section-label"><span>01</span><span data-i18n="aboutLabel">PROFILE</span></div>
+          <div class="section-content">
+            <p class="eyebrow" data-i18n="aboutEyebrow">A STUDENT BETWEEN LANGUAGES</p>
+            <h2 data-i18n="aboutTitle">Learning to connect<br />different worlds.</h2>
+            <div class="about-columns">
+              <p data-i18n="aboutTextOne">I study English at the School of Foreign Languages, Shanghai Jiao Tong University, with a focus on comparative literature and intercultural studies. My academic interests begin with language and broaden into the ways culture shapes how we understand one another.</p>
+              <p data-i18n="aboutTextTwo">Outside the classroom, I’ve worked on a Korea–China B2B sourcing and commerce project. Researching demand, communicating with suppliers, and shaping product content have shown me how careful communication can make cross-border work happen.</p>
+            </div>
+            <div class="profile-facts">
+              <div><span data-i18n="factSchool">UNIVERSITY</span><strong>Shanghai Jiao Tong University</strong></div>
+              <div><span data-i18n="factMajor">FIELD OF STUDY</span><strong data-i18n="majorValue">English · Comparative Literature &amp; Intercultural Studies</strong></div>
+              <div><span data-i18n="factSince">STUDYING SINCE</span><strong>2023</strong></div>
+            </div>
+          </div>
+        </section>
+        </div>
+
+        <div class="page-view" data-view="work" hidden>
+        <section class="work section-grid" id="work">
+          <div class="section-label"><span>02</span><span data-i18n="workLabel">EXPERIENCE</span></div>
+          <div class="section-content">
+            <p class="eyebrow" data-i18n="workEyebrow">LEARNING BY DOING</p>
+            <div class="work-heading"><h2 data-i18n="workTitle">Cross-border work,<br />from the ground up.</h2><span class="date-range">2025 — PRESENT</span></div>
+            <figure class="feature-image">
+              <img data-asset="asset.project" src="assets/elnos-flow.svg" alt="Illustrated flow connecting research, Chinese suppliers, and Korean customers" />
+              <figcaption data-i18n="projectCaption">From local sourcing to cross-border communication</figcaption>
+            </figure>
+            <article class="experience-card">
+              <div class="experience-top"><span class="project-mark">E.</span><span class="project-type" data-i18n="projectType">KOREA–CHINA B2B · ELNOS</span></div>
+              <p data-i18n="projectDescription">Contributing to a sourcing and distribution project connecting Chinese suppliers with Korean customers.</p>
+              <ul class="work-list">
+                <li data-i18n="taskOne">Market research and demand analysis</li>
+                <li data-i18n="taskTwo">Supplier communication and purchasing coordination</li>
+                <li data-i18n="taskThree">Product copywriting and SEO optimization</li>
+                <li data-i18n="taskFour">Website and channel operations</li>
+              </ul>
+              <div class="tool-tags"><span>Firebase</span><span>Naver Cafe</span><span>1688</span><span>Taobao</span></div>
+              <a class="section-link" data-link="projectLink" href="#languages"><span data-i18n="projectLink">Explore the skills behind this work</span><span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </section>
+        </div>
+
+        <div class="page-view" data-view="languages" hidden>
+        <section class="languages section-grid" id="languages">
+          <div class="section-label"><span>03</span><span data-i18n="languagesLabel">LANGUAGES</span></div>
+          <div class="section-content language-content">
+            <p class="eyebrow" data-i18n="languagesEyebrow">A MULTILINGUAL PERSPECTIVE</p>
+            <h2 data-i18n="languagesTitle">More than words.<br />A way to meet people.</h2>
+            <div class="language-list">
+              <div><span class="language-name" data-i18n="korean">Korean</span><span class="language-level" data-i18n="native">Native</span><span class="language-bar"><i style="--level:100%"></i></span></div>
+              <div><span class="language-name" data-i18n="chinese">Chinese</span><span class="language-level">HSK 6 · 217 / 300</span><span class="language-bar"><i style="--level:82%"></i></span></div>
+              <div><span class="language-name" data-i18n="english">English</span><span class="language-level" data-i18n="academic">Academic reading &amp; writing</span><span class="language-bar"><i style="--level:76%"></i></span></div>
+              <div><span class="language-name" data-i18n="japanese">Japanese</span><span class="language-level">JLPT N3</span><span class="language-bar"><i style="--level:55%"></i></span></div>
+            </div>
+            <figure class="language-image">
+              <img data-asset="asset.languages" src="assets/language-map.svg" alt="Abstract illustration of four connected languages" />
+              <figcaption data-i18n="languageCaption">Four languages, one curiosity about how people connect.</figcaption>
+            </figure>
+            <a class="section-link language-link" data-link="profileLink" href="https://github.com/lanos7469" target="_blank" rel="noopener noreferrer"><span data-i18n="profileLink">Visit my GitHub profile</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <a class="wordmark" href="#home">MC<span>.</span></a>
+        <p data-i18n="footerText">Thanks for stopping by. I’m always curious about thoughtful work across languages and cultures.</p>
+        <a class="back-top" href="#home"><span data-i18n="backTop">BACK TO TOP</span><span aria-hidden="true">↑</span></a>
+        <small>© 2026 MINSEUNG CHOI</small>
+      </footer>
+    </div>
+  </body>
+</html>

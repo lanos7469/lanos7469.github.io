@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-border project workflow</title>
+  <desc id="desc">Three illustrated stations for market research, Chinese supplier sourcing, and Korean customer communication.</desc>
+  <rect width="1000" height="480" fill="#d9e2d6"/>
+  <path d="M0 388c190-54 300-30 510 18 173 40 315 43 490-10v84H0z" fill="#a5b8a2"/>
+  <path d="M90 260h820" stroke="#315c4c" stroke-width="4" stroke-dasharray="10 12" opacity=".45"/>
+  <circle cx="175" cy="260" r="91" fill="#f4f2ec"/><circle cx="500" cy="260" r="91" fill="#f4f2ec"/><circle cx="825" cy="260" r="91" fill="#f4f2ec"/>
+  <circle cx="175" cy="260" r="64" fill="#e5c5ae"/><circle cx="500" cy="260" r="64" fill="#b7c8b2"/><circle cx="825" cy="260" r="64" fill="#e7b596"/>
+  <path d="M145 285v-50h60v50m-70-33h80m-55-28v-18h30v18" fill="none" stroke="#315c4c" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M462 289v-51h76v51m-84-52h92l-16-24h-61z" fill="none" stroke="#315c4c" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M789 245h72v48h-72zm8 9h56m-56 12h39m-39 12h28" fill="none" stroke="#315c4c" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="#315c4c" font-family="Arial,sans-serif" font-weight="700" font-size="17" text-anchor="middle"><text x="175" y="112">RESEARCH</text><text x="500" y="112">SOURCING</text><text x="825" y="112">COMMUNICATION</text></g>
+  <g fill="#6e8172" font-family="Arial,sans-serif" font-size="12" text-anchor="middle"><text x="175" y="370">01 / DISCOVER</text><text x="500" y="370">02 / COORDINATE</text><text x="825" y="370">03 / CONNECT</text></g>
+  <path d="M275 260h114m223 0h114" stroke="#db7654" stroke-width="8" stroke-linecap="round"/>
+  <path d="m380 246 18 14-18 14m337-28 18 14-18 14" fill="none" stroke="#db7654" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
