@@ -2,6 +2,10 @@
 
 Three views (Home, Experience, Languages) with English, Chinese, and Korean text. Built as a static site for GitHub Pages.
 
+## Digital Humanities coursework
+
+[李杜诗句互文](https://lanos7469.github.io/li-du/) compares similar lines in Li Bai and Du Fu's poetry.
+
 ## Preview locally
 
 Open `index.html` in a browser, or run `python3 -m http.server 8765` and visit `http://localhost:8765/`.
